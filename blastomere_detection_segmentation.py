@@ -1095,7 +1095,7 @@ def main(img_path=None, img_file=None, output_file=None, out_dir=None, bbox_thre
 if __name__ == '__main__':
 
     bias = 15  # bbox bias, let the bbox fully contain the blastomere
-    img_dir = 'images'
+    img_dir = 'frames'
     save_dir = 'outputs'
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
